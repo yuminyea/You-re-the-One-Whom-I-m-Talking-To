@@ -5,7 +5,7 @@ This repository accompanies the IMWUT 2025 February submission (ID: 1102) and su
 ---
 
 ## Abstract
-This study explores the role of contextual external human-machine interfaces (eHMIs) in autonomous vehicles (AVs) for resolving multi-road user conflict scenarios. Using VR-based simulations, we evaluate how AVs can effectively communicate with pedestrians, cyclists, and drivers in shared traffic environments.
+As autonomous vehicles (AVs) become more prevalent, mixed traffic environments involving pedestrians, cyclists, and manual vehicle drivers present challenges for safe and effective interactions. External Human-Machine Interfaces (eHMIs) have emerged as a solution, with context-based eHMIs—providing specific information such as whom, when, and where—showing potential for improving communication in complex scenarios. However, their impact on road user behavior and safety in interactions involving multiple road users remains insufficiently explored. This study addresses this gap by examining how contextual eHMIs affect crossing performance and subjective feelings during multi-user conflict scenarios. Using a virtual reality-based multi-agent simulation, 42 participants were evenly divided into three groups, each representing pedestrians, cyclists, and manual vehicle drivers, to make crossing decisions in interactions with an AV. Our findings demonstrated that providing contextual information in AV-multi-road user interactions significantly improved participants’ crossing performance and enhanced their perceived safety, trust, and clarity. These findings highlight the potential of context-based eHMIs to support safer and more intuitive interactions in mixed-traffic environments.
 
 ---
 
@@ -41,3 +41,8 @@ This study explores the role of contextual external human-machine interfaces (eH
 
 ## Citation
 If you use this repository in your research, please cite:
+
+---
+
+## License
+This repository is licensed under the MIT License. See `LICENSE` for details.

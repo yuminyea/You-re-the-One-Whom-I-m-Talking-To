@@ -10,17 +10,17 @@ This study investigates the role of contextual external human-machine interfaces
 ---
 
 ## Repository Structure
-- **Builds/**: Contains pre-built executables for the server and client environments (e.g., `Server.exe`, `Pedestrian.exe`, `Cyclist.exe`, `Driver.exe`).
+- **Builds/**: Contains pre-built executables for the server and client environments (e.g., `server.exe`, `pedestrian.exe`, `cyclist.exe`, `driver.exe`).
 - **Docs/**: Includes the Setup Guide (`SetupGuide.pdf`) and the System Diagram (`SystemDiagram.pdf`).
 
 ---
 
 ## Builds
 The `Builds/` folder contains pre-built executables for running the system:
-- **Server**: Manages real-time synchronization between all clients.
-- **Pedestrian**: Simulates pedestrian interactions in VR.
-- **Cyclist**: Simulates cyclist interactions in VR.
-- **Driver**: Simulates manual vehicle driver interactions in VR.
+- **server**: Manages real-time synchronization between all clients.
+- **pedestrian**: Simulates pedestrian interactions in VR.
+- **cyclist**: Simulates cyclist interactions in VR.
+- **driver**: Simulates manual vehicle driver interactions in VR.
 
 Each folder contains the respective executable file (`.exe`) and necessary dependencies.
 
@@ -33,15 +33,15 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
 2. **Start the server executable first**:
    - Ensure you navigate to the folder containing Server.exe before running the command:
      ```
-     cd path/to/Server.exe
+     cd path/to/server.exe
      ```
    - Use the command below to run the server in **Headless Mode**:
      ```
-     .\Server.exe -batchmode -nographics
+     .\server.exe -batchmode -nographics
      ```
    - By default, the server will bind to all available network interfaces (`0.0.0.0`) and listen on port `7777`.
    - The client will need the server's IP address to connect. See [Server IP Setup](#server-ip-setup) for details.
-4. Run the respective client executable (`Pedestrian.exe`, `Cyclist.exe`, `Driver.exe`).
+4. Run the respective client executable (`pedestrian.exe`, `cyclist.exe`, `driver.exe`).
 5. Follow the on-screen instructions to connect to the server.
 
 ---

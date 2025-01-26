@@ -15,6 +15,17 @@ This study investigates the role of contextual external human-machine interfaces
 
 
 
+## Builds
+The `Builds/` folder contains pre-built executables for running the system:
+- **Server**: Manages real-time synchronization between all clients.
+- **Pedestrian**: Simulates pedestrian interactions in VR.
+- **Cyclist**: Simulates cyclist interactions in VR.
+- **Driver**: Simulates manual vehicle driver interactions in VR.
+
+Each folder contains the respective executable file (`.exe`) and necessary dependencies.
+
+
+
 ## Getting Started
 
 ### Pre-Built Executables

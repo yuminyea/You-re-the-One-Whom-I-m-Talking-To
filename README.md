@@ -12,7 +12,6 @@ This study investigates the role of contextual external human-machine interfaces
 ## Repository Structure
 - **Builds/**: Contains pre-built executables for the server and client environments (e.g., Pedestrian.exe, Cyclist.exe, Driver.exe).
 - **Docs/**: Includes the Setup Guide (SetupGuide.pdf) and the System Diagram (SystemDiagram.png).
-- **Data/**: Provides sample logs and simulation data for understanding the experimental setup.
 
 
 

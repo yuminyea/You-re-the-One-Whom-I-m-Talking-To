@@ -7,14 +7,14 @@ This repository supports the IMWUT 2025 February submission (ID: 1102) by provid
 ## Abstract
 This study investigates the role of contextual external human-machine interfaces (eHMIs) in autonomous vehicles (AVs) for resolving multi-road user conflict scenarios. Using VR-based multi-agent simulations, we evaluate methods for effective communication between AVs and pedestrians, cyclists, and manual vehicle drivers in complex traffic scenarios.
 
----
+
 
 ## Repository Structure
 - **Builds/**: Contains pre-built executables for the server and client environments (e.g., Pedestrian.exe, Cyclist.exe, Driver.exe).
 - **Docs/**: Includes the Setup Guide (SetupGuide.pdf) and the System Diagram (SystemDiagram.png).
 - **Data/**: Provides sample logs and simulation data for understanding the experimental setup.
 
----
+
 
 ## Getting Started
 
@@ -25,18 +25,18 @@ This study investigates the role of contextual external human-machine interfaces
 4. Run the respective client executable (Pedestrian, Cyclist, Driver).
 5. Follow the on-screen instructions to connect to the server.
 
----
+
 
 ## Documentation
 - **[Setup Guide](Docs/SetupGuide.pdf)**: Step-by-step instructions for running the system.
 - **[System Diagram](Docs/SystemDiagram.png)**: Overview of the system architecture.
 
----
+
 
 ## Supported Platforms
 Currently, only **Windows** builds are provided to ensure compatibility. Builds for **MacOS** or **Linux** can be generated upon request.
 
----
+
 
 ## Notes
 In the original experimental setup, the pedestrian environment also acted as the server. For deployment flexibility, the server and pedestrian environments have been separated, allowing the server to operate independently while all clients (pedestrians, cyclists, and drivers) connect seamlessly. This change does not affect the experimental results or the system's functionality.

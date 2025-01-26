@@ -51,7 +51,7 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
 
 ## Documentation
 - **[Setup Guide](Docs/SetupGuide.pdf)**: Step-by-step instructions for running the system.
-- **[System Diagram](Docs/SystemDiagram.png)**: Overview of the system architecture.
+- **[System Diagram](Docs/SystemDiagram.pdf)**: Overview of the system architecture.
 
 
 

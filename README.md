@@ -37,7 +37,7 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
      ```
    - Use the command below to run the server in **Headless Mode**:
      ```
-     Server.exe -batchmode -nographics
+     .\Server.exe -batchmode -nographics
      ```
    - By default, the server will bind to all available network interfaces (`0.0.0.0`) and listen on port `7777`.
    - The client will need the server's IP address to connect. See [Server IP Setup](#server-ip-setup) for details.

@@ -33,7 +33,8 @@ This study investigates the role of contextual external human-machine interfaces
 ---
 
 ## Notes
-To streamline the review process and focus on the key aspects of the study, we have temporarily withheld the full Unity project and source code. These resources, including comprehensive implementation details, will be openly shared following the manuscript's acceptance.
+- In the original experimental setup, the pedestrian environment also acted as the server. However, for ease of deployment and improved flexibility, the pedestrian environment and server have been separated. This modification ensures that users can independently run the server and connect all client environments without additional configurations. The separation does not impact the experimental results or system functionality.
+- To streamline the review process and focus on the key aspects of the study, we have temporarily withheld the full Unity project and source code. These resources, including comprehensive implementation details, will be openly shared following the manuscript's acceptance.
 
 ---
 

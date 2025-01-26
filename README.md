@@ -30,11 +30,23 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
 
 ### Pre-Built Executables
 1. Download the appropriate executable from the `Builds/` folder.
-2. Ensure all devices are connected to the same network.
-3. Start the server executable first and confirm it is running.
-4. Run the respective client executable (Pedestrian, Cyclist, Driver).
-5. Follow the on-screen instructions to connect to the server.
+2. Start the server executable first.
+   - By default, the server will bind to all available network interfaces (`0.0.0.0`) and listen on the specified port (default: `7777`).
+   - The client will need the server's IP address to connect. See [Server IP Setup](#server-ip-setup) for details.
+3. Run the respective client executable (Pedestrian, Cyclist, Driver).
+4. Follow the on-screen instructions to connect to the server.
 
+
+
+### Server IP Setup
+- **Default Setting**: 
+  - The server uses the local IP address (`127.0.0.1`) for testing and local execution.
+- **Custom IP Address**:
+  - To connect a client to a remote server, specify the server's IP address:
+    - **Command Line**: Use the `-address` argument when launching the client executable.  
+      Example: `server.exe -address 192.168.1.100`
+- **Port Configuration**:
+  - The server and client communicate over port `7777` by default. Ensure that the port is open and not blocked by firewalls or network restrictions.
 
 
 ## Documentation

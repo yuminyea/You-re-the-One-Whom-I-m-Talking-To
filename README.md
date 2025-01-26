@@ -42,7 +42,7 @@ Currently, only **Windows** builds are provided to ensure compatibility. Builds 
 In the original experimental setup, the pedestrian environment also acted as the server. For deployment flexibility, the server and pedestrian environments have been separated, allowing the server to operate independently while all clients (pedestrians, cyclists, and drivers) connect seamlessly. This change does not affect the experimental results or the system's functionality.
 - To focus on the study's key aspects, the full Unity project and source code have been temporarily withheld. Upon acceptance of the manuscript, these resources, including detailed implementation, will be shared openly.
 
----
+
 
 ## License
 This repository is licensed under the MIT License. See `LICENSE` for details.

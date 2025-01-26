@@ -10,7 +10,7 @@ This study investigates the role of contextual external human-machine interfaces
 
 
 ## Repository Structure
-- **Builds/**: Contains pre-built executables for the server and client environments (e.g., Pedestrian.exe, Cyclist.exe, Driver.exe).
+- **Builds/**: Contains pre-built executables for the server and client environments (e.g., Server.exe, Pedestrian.exe, Cyclist.exe, Driver.exe).
 - **Docs/**: Includes the Setup Guide (SetupGuide.pdf) and the System Diagram (SystemDiagram.png).
 
 
@@ -44,7 +44,7 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
 - **Custom IP Address**:
   - To connect a client to a remote server, specify the server's IP address:
     - **Command Line**: Use the `-address` argument when launching the client executable.  
-      Example: `server.exe -address 192.168.1.100`
+      Example: `Server.exe -address 192.168.1.100`
 - **Port Configuration**:
   - The server and client communicate over port `7777` by default. Ensure that the port is open and not blocked by firewalls or network restrictions.
 

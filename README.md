@@ -42,6 +42,10 @@ In the original experimental setup, the pedestrian environment also acted as the
 - To focus on the study's key aspects, the full Unity project and source code have been temporarily withheld. Upon acceptance of the manuscript, these resources, including detailed implementation, will be shared openly.
 
 
+## Demo Video
+Watch the system in action through our demo video:
+[![Demo Video](link will be added)
+
 
 ## License
 This repository is licensed under the MIT License. See `LICENSE` for details.

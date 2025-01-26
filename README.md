@@ -31,14 +31,18 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
 ### Pre-Built Executables
 1. Download the appropriate executable from the `Builds/` folder.
 2. **Start the server executable first**:
-   - Use the command below to run the server in **Headless Mode** (recommended for deployment):
+   - Ensure you navigate to the folder containing Server.exe before running the command:
+     ```
+     cd path/to/Server.exe
+     ```
+   - Use the command below to run the server in **Headless Mode**:
      ```
      Server.exe -batchmode -nographics
      ```
    - By default, the server will bind to all available network interfaces (`0.0.0.0`) and listen on port `7777`.
    - The client will need the server's IP address to connect. See [Server IP Setup](#server-ip-setup) for details.
-3. Run the respective client executable (`Pedestrian.exe`, `Cyclist.exe`, `Driver.exe`).
-4. Follow the on-screen instructions to connect to the server.
+4. Run the respective client executable (`Pedestrian.exe`, `Cyclist.exe`, `Driver.exe`).
+5. Follow the on-screen instructions to connect to the server.
 
 ---
 

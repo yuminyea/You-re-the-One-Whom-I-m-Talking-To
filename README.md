@@ -32,6 +32,13 @@ This study investigates the role of contextual external human-machine interfaces
 
 ---
 
+## Supported Platforms
+For the purposes of this study, the provided build files currently support **Windows** only, as the primary focus is on ensuring a smooth review process for the submitted manuscript.
+
+If needed, builds for **MacOS** or **Linux** can be generated upon request. Unity supports cross-platform builds, and we are prepared to accommodate additional platform-specific requirements to facilitate further testing or replication of the study.
+
+---
+
 ## Notes
 - In the original experimental setup, the pedestrian environment also acted as the server. However, for ease of deployment and improved flexibility, the pedestrian environment and server have been separated. This modification ensures that users can independently run the server and connect all client environments without additional configurations. The separation does not impact the experimental results or system functionality.
 - To streamline the review process and focus on the key aspects of the study, we have temporarily withheld the full Unity project and source code. These resources, including comprehensive implementation details, will be openly shared following the manuscript's acceptance.

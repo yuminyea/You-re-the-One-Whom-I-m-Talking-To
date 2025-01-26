@@ -2,7 +2,7 @@
 
 This repository supports the IMWUT 2025 February submission (ID: 1102) by providing documentation, pre-built executables, and visual materials related to the study. Upon acceptance of the manuscript, Unity packages, source code, and additional resources will be shared.
 
----
+
 
 ## Abstract
 This study investigates the role of contextual external human-machine interfaces (eHMIs) in autonomous vehicles (AVs) for resolving multi-road user conflict scenarios. Using VR-based multi-agent simulations, we evaluate methods for effective communication between AVs and pedestrians, cyclists, and manual vehicle drivers in complex traffic scenarios.

@@ -1,18 +1,18 @@
 # You’re the One Whom I’m Talking To: The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios
 
-This repository accompanies the IMWUT 2025 February submission (ID: 1102). It serves to support the review process by providing documentation and illustrative materials related to the study. Full Unity packages, source code, and additional resources will be made available upon acceptance of the manuscript.
+This repository supports the IMWUT 2025 February submission (ID: 1102) by providing documentation, pre-built executables, and visual materials related to the study. Upon acceptance of the manuscript, Unity packages, source code, and additional resources will be shared.
 
 ---
 
 ## Abstract
-This study investigates the role of contextual external human-machine interfaces (eHMIs) in autonomous vehicles (AVs) for resolving multi-road user conflict scenarios. Using VR-based multi-agent simulations, we evaluate how AVs can effectively communicate with pedestrians, cyclists, and manual vehicle drivers in shared traffic environments.
+This study investigates the role of contextual external human-machine interfaces (eHMIs) in autonomous vehicles (AVs) for resolving multi-road user conflict scenarios. Using VR-based multi-agent simulations, we evaluate methods for effective communication between AVs and pedestrians, cyclists, and manual vehicle drivers in complex traffic scenarios.
 
 ---
 
 ## Repository Structure
-- **Builds/**: Pre-built executables for server and client environments.
-- **Docs/**: Documentation, including setup guides and system diagrams.
-- **Data/**: Sample logs and data to illustrate the experimental setup.
+- **Builds/**: Contains pre-built executables for the server and client environments (e.g., Pedestrian.exe, Cyclist.exe, Driver.exe).
+- **Docs/**: Includes the Setup Guide (SetupGuide.pdf) and the System Diagram (SystemDiagram.png).
+- **Data/**: Provides sample logs and simulation data for understanding the experimental setup.
 
 ---
 
@@ -20,9 +20,10 @@ This study investigates the role of contextual external human-machine interfaces
 
 ### Pre-Built Executables
 1. Download the appropriate executable from the `Builds/` folder.
-2. Start the server executable first.
-3. Run the respective client executable (Pedestrian, Cyclist, Driver).
-4. Follow the on-screen instructions to connect to the server.
+2. Ensure all devices are connected to the same network.
+3. Start the server executable first and confirm it is running.
+4. Run the respective client executable (Pedestrian, Cyclist, Driver).
+5. Follow the on-screen instructions to connect to the server.
 
 ---
 
@@ -33,15 +34,13 @@ This study investigates the role of contextual external human-machine interfaces
 ---
 
 ## Supported Platforms
-For the purposes of this study, the provided build files currently support **Windows** only, as the primary focus is on ensuring a smooth review process for the submitted manuscript.
-
-If needed, builds for **MacOS** or **Linux** can be generated upon request. Unity supports cross-platform builds, and we are prepared to accommodate additional platform-specific requirements to facilitate further testing or replication of the study.
+Currently, only **Windows** builds are provided to ensure compatibility. Builds for **MacOS** or **Linux** can be generated upon request.
 
 ---
 
 ## Notes
-- In the original experimental setup, the pedestrian environment also acted as the server. However, for ease of deployment and improved flexibility, the pedestrian environment and server have been separated. This modification ensures that users can independently run the server and connect all client environments without additional configurations. The separation does not impact the experimental results or system functionality.
-- To streamline the review process and focus on the key aspects of the study, we have temporarily withheld the full Unity project and source code. These resources, including comprehensive implementation details, will be openly shared following the manuscript's acceptance.
+In the original experimental setup, the pedestrian environment also acted as the server. For deployment flexibility, the server and pedestrian environments have been separated, allowing the server to operate independently while all clients (pedestrians, cyclists, and drivers) connect seamlessly. This change does not affect the experimental results or the system's functionality.
+- To focus on the study's key aspects, the full Unity project and source code have been temporarily withheld. Upon acceptance of the manuscript, these resources, including detailed implementation, will be shared openly.
 
 ---
 

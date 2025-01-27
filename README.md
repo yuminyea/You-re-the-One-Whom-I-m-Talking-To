@@ -1,13 +1,17 @@
 # You’re the One Whom I’m Talking To: The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios
 
-This repository supports the IMWUT 2025 February submission (ID: 1102) by providing documentation, pre-built executables, and visual materials related to the study. Upon acceptance of the manuscript, Unity packages, source code, and additional resources will be shared.
+This repository supports the IMWUT 2025 February submission (ID: 1102) by providing documentation, pre-built executables, and visual materials related to the study. The repository is anonymized to comply with double-blind peer review requirements. Upon acceptance of the manuscript, Unity packages, source code, and additional resources will be shared.
 
 ---
 
-## Abstract
-This study investigates the role of contextual external human-machine interfaces (eHMIs) in autonomous vehicles (AVs) for resolving multi-road user conflict scenarios. Using VR-based multi-agent simulations, we evaluate methods for effective communication between AVs and pedestrians, cyclists, and manual vehicle drivers in complex traffic scenarios.
+## Overview
+This study explores how contextual external human-machine interfaces (eHMIs) in autonomous vehicles (AVs) facilitate communication with multiple road users—pedestrians, cyclists, and manual vehicle drivers—in complex traffic scenarios. Using a VR-based multi-agent simulation, we demonstrate the effectiveness of eHMIs in reducing conflicts and improving safety.
 
 ---
+
+## Features
+- **VR-Based Multi-Agent Simulation**: Simulates interactions between AVs and road users in real-time.
+- **Pre-Built Executables**: Allows reviewers to replicate the experimental setup without requiring source code.
 
 ## Repository Structure
 - **Builds/**: Contains pre-built executables for the server and client environments (e.g., `server.exe`, `pedestrian.exe`, `cyclist.exe`, `driver.exe`).
@@ -26,35 +30,31 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
 
 ---
 
-## Getting Started
+## Quickstart
 
-### Pre-Built Executables
-1. Download the appropriate executable from the `Builds/` folder.
-2. **Start the server executable first**:
-   - Ensure you navigate to the folder containing Server.exe before running the command:
+### Running the Pre-Built Executables
+1. **Download the appropriate executable** from the `Builds/` folder.
+2. **Start the server**:
+   - Navigate to the `server/` folder:
+     ```bash
+     cd path/to/server
      ```
-     cd path/to/server.exe
+   - Run the server in headless mode:
+     ```bash
+     ./server.exe -batchmode -nographics
      ```
-   - Use the command below to run the server in **Headless Mode**:
+   - The server will bind to `0.0.0.0` and listen on port `7777` by default.
+3. **Run the client executable** for the desired role:
+   - Pedestrian: `./pedestrian.exe`
+   - Cyclist: `./cyclist.exe`
+   - Driver: `./driver.exe`
+4. **Connect to the server** using the server's IP address:
+   - Default: `127.0.0.1` for local testing.
+   - Custom: Specify the IP address with the `-address` flag:
+     ```bash
+     ./client.exe -address <server_ip>
      ```
-     .\server.exe -batchmode -nographics
-     ```
-   - By default, the server will bind to all available network interfaces (`0.0.0.0`) and listen on port `7777`.
-   - The client will need the server's IP address to connect. See [Server IP Setup](#server-ip-setup) for details.
-4. Run the respective client executable (`pedestrian.exe`, `cyclist.exe`, `driver.exe`).
-5. Follow the on-screen instructions to connect to the server.
 
----
-
-### Server IP Setup
-- **Default Setting**: 
-  - The server uses the local IP address (`127.0.0.1`) for testing and local execution.
-- **Custom IP Address**:
-  - To connect a client to a remote server, specify the server's IP address:
-    - **Command Line**: Use the `-address` argument when launching the client executable.  
-      Example: `Client.exe -address 192.168.1.100`
-- **Port Configuration**:
-  - The server and client communicate over port `7777` by default. Ensure that the port is open and not blocked by firewalls or network restrictions.
 
 ---
 
@@ -70,9 +70,9 @@ Currently, only **Windows** builds are provided to ensure compatibility. Builds 
 ---
 
 ## Notes
-In the original experimental setup, the pedestrian environment also acted as the server. For deployment flexibility, the server and pedestrian environments have been separated, allowing the server to operate independently while all clients (pedestrians, cyclists, and drivers) connect seamlessly. This change does not affect the experimental results or the system's functionality.
+- In the original experimental setup, the pedestrian environment also acted as the server. To enhance deployment flexibility, the server is now independent, allowing all clients (pedestrians, cyclists, drivers) to connect seamlessly. This change does not affect the experimental results or the system's functionality.
 
-- To focus on the study's key aspects, the full Unity project and source code have been temporarily withheld. Upon acceptance of the manuscript, these resources, including detailed implementation, will be shared openly.
+- Unity source code and additional resources will be shared upon manuscript acceptance.
 
 ---
 

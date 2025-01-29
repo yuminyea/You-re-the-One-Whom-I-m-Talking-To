@@ -52,7 +52,11 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
    - **Using keyboard inputs** (Top row keys):
      - Press `S` to start driving.
      - Press `X` to stop driving.
-     - Press keys `1`–`12` to set specific eHMI designs:
+   - **Using commands**:
+     - Enter `start` to initiate driving.
+     - Enter `stop` to halt driving.
+     - Enter `exit` to shut down the server.
+     - Press `1`–`12` to set specific eHMI designs:
        - `1`: No eHMI (Yield)
        - `2`: No eHMI (No Yield)
        - `3`: No Context (Yield)
@@ -65,12 +69,6 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
        - `10`: When (No Yield)
        - `11`: Where (Yield)
        - `12`: Where (No Yield)
-   - **Using commands**:
-     - Enter `start` to initiate driving.
-     - Enter `stop` to halt driving.
-     - Enter `design <eHMI Design>` to change the experimental condition.
-       - Example: `design NoContext_Yield`
-     - Enter `exit` to shut down the server.
      - Commands can be typed directly into the terminal running the server.
 
 4. **Run the client executable** for the desired role:

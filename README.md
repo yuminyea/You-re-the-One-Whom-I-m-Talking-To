@@ -52,7 +52,7 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
    - **Using keyboard inputs** (Top row keys):
      - Press `S` to start driving.
      - Press `X` to stop driving.
-     - Press keys `1`–`=` to set specific eHMI designs:
+     - Press keys `1`–`12` to set specific eHMI designs:
        - `1`: No eHMI (Yield)
        - `2`: No eHMI (No Yield)
        - `3`: No Context (Yield)
@@ -62,9 +62,9 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
        - `7`: Whom (Cyclist)
        - `8`: Whom (No Yield)
        - `9`: When (Yield)
-       - `0`: When (No Yield)
-       - `-`: Where (Yield)
-       - `=`: Where (No Yield)
+       - `10`: When (No Yield)
+       - `11`: Where (Yield)
+       - `12`: Where (No Yield)
    - **Using commands**:
      - Enter `start` to initiate driving.
      - Enter `stop` to halt driving.

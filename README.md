@@ -71,8 +71,6 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
      - Enter `design <eHMI Design>` to change the experimental condition.
        - Example: `design NoContext_Yield`
      - Enter `exit` to shut down the server.
-     - **Set eHMI Design**: `design <eHMI Design>`
-       - Example: `design NoContext_Yield` or `design Whom_Pedestrian`
      - Commands can be typed directly into the terminal running the server.
 
 4. **Run the client executable** for the desired role:

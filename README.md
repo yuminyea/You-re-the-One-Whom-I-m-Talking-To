@@ -49,7 +49,7 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
    - The server will bind to `0.0.0.0` and listen on port `7777` by default.
 
 3. **Control the server**:
-   - **Using keyboard inputs**:
+   - **Using keyboard inputs** (Top row keys):
      - Press `S` to start driving.
      - Press `X` to stop driving.
      - Press keys `1`–`=` to set specific eHMI designs:

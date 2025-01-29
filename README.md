@@ -12,6 +12,9 @@ This study explores how contextual external human-machine interfaces (eHMIs) in 
 ## Features
 - **VR-Based Multi-Agent Simulation**: Simulates interactions between AVs and road users in real-time.
 - **Pre-Built Executables**: Allows reviewers to replicate the experimental setup without requiring source code.
+- **Server Commands**: Control AV behaviors (e.g., start/stop driving) using keyboard inputs or commands.
+
+---
 
 ## Repository Structure
 - **Builds/**: Contains pre-built executables for the server and client environments (e.g., `server.exe`, `pedestrian.exe`, `cyclist.exe`, `driver.exe`).
@@ -44,17 +47,28 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
      ./server.exe -batchmode -nographics
      ```
    - The server will bind to `0.0.0.0` and listen on port `7777` by default.
-3. **Run the client executable** for the desired role:
+
+3. **Control the server**:
+   - **Using keyboard inputs**:
+     - Press `S` to start driving.
+     - Press `X` to stop driving.
+   - **Using commands**:
+     - Enter `start` to initiate driving.
+     - Enter `stop` to halt driving.
+     - Enter `exit` to shut down the server.
+     - Commands can be typed directly into the terminal running the server.
+
+4. **Run the client executable** for the desired role:
    - Pedestrian: `./pedestrian.exe`
    - Cyclist: `./cyclist.exe`
    - Driver: `./driver.exe`
-4. **Connect to the server** using the server's IP address:
+
+5. **Connect to the server** using the server's IP address:
    - Default: `127.0.0.1` for local testing.
    - Custom: Specify the IP address with the `-address` flag:
      ```bash
      ./client.exe -address <server_ip>
      ```
-
 
 ---
 

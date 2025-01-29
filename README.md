@@ -12,7 +12,7 @@ This study explores how contextual external human-machine interfaces (eHMIs) in 
 ## Features
 - **VR-Based Multi-Agent Simulation**: Simulates interactions between AVs and road users in real-time.
 - **Pre-Built Executables**: Allows reviewers to replicate the experimental setup without requiring source code.
-- **Server Commands**: Control AV behaviors (e.g., start/stop driving) using keyboard inputs or commands.
+- **Server Commands**: Control AV behaviors (e.g., start/stop driving) and experimental conditions (e.g., eHMI design) using keyboard inputs or commands.
 
 ---
 
@@ -24,7 +24,7 @@ This study explores how contextual external human-machine interfaces (eHMIs) in 
 
 ## Builds
 The `Builds/` folder contains pre-built executables for running the system:
-- **server**: Manages real-time synchronization between all clients.
+- **server**: Manages real-time synchronization between all clients and controls experimental conditions.
 - **pedestrian**: Simulates pedestrian interactions in VR.
 - **cyclist**: Simulates cyclist interactions in VR.
 - **driver**: Simulates manual vehicle driver interactions in VR.
@@ -52,9 +52,24 @@ Each folder contains the respective executable file (`.exe`) and necessary depen
    - **Using keyboard inputs**:
      - Press `S` to start driving.
      - Press `X` to stop driving.
+     - Press keys `1`–`=` to set specific eHMI designs:
+       - `1`: No eHMI (Yield)
+       - `2`: No eHMI (No Yield)
+       - `3`: No Context (Yield)
+       - `4`: No Context (No Yield)
+       - `5`: Whom (Pedestrian)
+       - `6`: Whom (Driver)
+       - `7`: Whom (Cyclist)
+       - `8`: Whom (No Yield)
+       - `9`: When (Yield)
+       - `0`: When (No Yield)
+       - `-`: Where (Yield)
+       - `=`: Where (No Yield)
    - **Using commands**:
      - Enter `start` to initiate driving.
      - Enter `stop` to halt driving.
+     - Enter `design <eHMI Design>` to change the experimental condition.
+       - Example: `design NoContext_Yield`
      - Enter `exit` to shut down the server.
      - Commands can be typed directly into the terminal running the server.
 
@@ -84,8 +99,7 @@ Currently, only **Windows** builds are provided to ensure compatibility. Builds 
 ---
 
 ## Notes
-- In the original experimental setup, the pedestrian environment also acted as the server. To enhance deployment flexibility, the server is now independent, allowing all clients (pedestrians, cyclists, drivers) to connect seamlessly. This change does not affect the experimental results or the system's functionality.
-
+- The server now manages **eHMI design conditions** directly, supporting 12 experimental configurations. Both keyboard inputs and commands can modify conditions dynamically.
 - Unity source code and additional resources will be shared upon manuscript acceptance.
 
 ---

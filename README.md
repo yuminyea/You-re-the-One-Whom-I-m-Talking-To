@@ -23,14 +23,14 @@ Using a **VR-based multi-agent simulation**, we demonstrate how eHMIs can reduce
 
 
 ## **Repository Structure**
-Builds/ # Pre-built executables for server & clients 
-├── server/ # Server executable 
-├── pedestrian/ # Pedestrian client executable 
-├── cyclist/ # Cyclist client executable 
-├── driver/ # Driver client executable 
-Docs/ # Documentation & system overview 
-├── SetupGuide.pdf 
-├── SystemDiagram.pdf
+Builds/             # Pre-built executables for server & clients
+ ├── server/        # Server executable
+ ├── pedestrian/    # Pedestrian client executable
+ ├── cyclist/       # Cyclist client executable
+ ├── driver/        # Driver client executable
+Docs/               # Documentation & system overview
+ ├── SetupGuide.pdf
+ ├── SystemDiagram.pdf
 
 
 

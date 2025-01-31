@@ -65,7 +65,7 @@ Use **keyboard inputs inside the Unity Editor** to modify AV behavior and experi
 - **X** → Stop driving  
 
 ### **eHMI Condition Selection**
-Press **the number keys (`1–12`)** to change eHMI conditions:
+Press **the number keys (1–10 on the top row) and - or =** to change eHMI conditions:
 
 | Key | Condition               |
 |----|-------------------------|
@@ -78,9 +78,9 @@ Press **the number keys (`1–12`)** to change eHMI conditions:
 | 7  | Whom (Cyclist)          |
 | 8  | Whom (No Yield)         |
 | 9  | When (Yield)            |
-| 10 | When (No Yield)         |
-| 11 | Where (Yield)           |
-| 12 | Where (No Yield)        |
+| 0 | When (No Yield)         |
+| - | Where (Yield)           |
+| = | Where (No Yield)        |
 
 
 

@@ -10,6 +10,7 @@ This study explores how **contextual external human-machine interfaces (eHMIs)**
 Using a **VR-based multi-agent simulation**, we demonstrate how eHMIs can reduce conflicts and improve safety.
 
 
+
 ## **Features**
 - **VR-Based Multi-Agent Simulation**: Real-time simulation of interactions between AVs and road users.
 - **Pre-Built Executables**: Allows reviewers to replicate the experimental setup without requiring source code.
@@ -22,18 +23,25 @@ Using a **VR-based multi-agent simulation**, we demonstrate how eHMIs can reduce
 
 
 ## **Repository Structure**
-Builds/ # Pre-built executables for server & clients ├── server/ # Server executable ├── pedestrian/ # Pedestrian client executable ├── cyclist/ # Cyclist client executable ├── driver/ # Driver client executable Docs/ # Documentation & system overview ├── SetupGuide.pdf ├── SystemDiagram.pdf
+Builds/ # Pre-built executables for server & clients 
+├── server/ # Server executable 
+├── pedestrian/ # Pedestrian client executable 
+├── cyclist/ # Cyclist client executable 
+├── driver/ # Driver client executable 
+Docs/ # Documentation & system overview 
+├── SetupGuide.pdf 
+├── SystemDiagram.pdf
 
 
 
 ## **Quickstart**
 
-### **1️⃣ Running the Server in Unity**
+### **1. Running the Server in Unity**
 1. Open **Unity** and load the project.
-2. **Run the "Server" scene** inside Unity.
+2. Run the **"Server" scene** inside Unity.
 3. The server will start, handling real-time synchronization and experimental conditions.
 
-### **2️⃣ Running the Client Executables**
+### **2. Running the Client Executables**
 1. Download the appropriate client executable from `Builds/`:
    - **Pedestrian:** `pedestrian.exe`
    - **Cyclist:** `cyclist.exe`
@@ -49,15 +57,16 @@ Builds/ # Pre-built executables for server & clients ├── server/ # Server 
 
 
 ## **Server Control (Unity-Based)**
-🚗 **The server is controlled directly within Unity.**  
+The server is controlled directly within Unity.  
 Use **keyboard inputs inside the Unity Editor** to modify AV behavior and experimental conditions.
 
-### **🚀 Vehicle Control**
+### **Vehicle Control**
 - **S** → Start driving  
 - **X** → Stop driving  
 
-### **🎛️ eHMI Condition Selection**
+### **eHMI Condition Selection**
 Press **the number keys (`1–12`)** to change eHMI conditions:
+
 | Key | Condition               |
 |----|-------------------------|
 | 1  | No eHMI (Yield)         |
@@ -76,12 +85,13 @@ Press **the number keys (`1–12`)** to change eHMI conditions:
 
 
 ## **Object Movement (VR & Keyboard)**
-### **1️⃣ VR-Based Movement**
-- **Users wearing VR HMDs** can control their characters naturally using **head movement & controllers**.
+### **1. VR-Based Movement**
+- Users wearing VR HMDs can control their characters naturally using **head movement & controllers**.
 - Real-time tracking of **position & orientation** is synchronized across the server and other clients.
 
-### **2️⃣ Keyboard-Based Movement**
-Users can also **use keyboard inputs** for testing purposes:
+### **2. Keyboard-Based Movement**
+Users can also use keyboard inputs for testing purposes:
+
 | Action      | Key (PC)     |
 |------------|-------------|
 | Move Forward  | `W` / `UpArrow` |
@@ -92,14 +102,14 @@ Users can also **use keyboard inputs** for testing purposes:
 
 
 ## **Documentation**
-📖 **[Setup Guide](Docs/SetupGuide.pdf)** → Step-by-step installation & setup instructions  
-📊 **[System Diagram](Docs/SystemDiagram.pdf)** → Overview of system architecture  
+- **[Setup Guide](Docs/SetupGuide.pdf)**: Step-by-step installation & setup instructions  
+- **[System Diagram](Docs/SystemDiagram.pdf)**: Overview of system architecture  
 
 
 
 ## **Supported Platforms**
 - **Windows (Primary Support)**
-- MacOS & Linux builds **available upon request**
+- MacOS & Linux builds available upon request
 
 
 
@@ -118,6 +128,7 @@ Watch the system in action:
 [![Demo Video](link will be added)]
 
 
-
 ## **License**
 This repository is licensed under the **MIT License**. See `LICENSE` for details.
+
+

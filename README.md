@@ -133,9 +133,9 @@ This repository does not include pre-built Unity scenes or assets. Users must se
 
 
 ## **Notes**
-- Currently, **build files are not included** in this repository due to Unity asset licensing concerns and observed network connection issues on some machines.
-- We are working on resolving these issues and plan to release the **complete Unity project files**, **build executables**, and **an API for enhanced usability** in future updates.
-- Upon manuscript acceptance, the repository will also include **full source code and additional resources**.
+- This repository currently provides core scripts and documentation, with plans for significant expansion in future updates. These updates will include the **complete Unity project files**, **build executables**, and an **API** to enhance usability and accessibility for researchers and developers.
+- During testing, we identified considerations related to **Unity asset licensing** and **network connectivity** in certain machine setups. We are actively addressing these aspects to ensure a seamless and robust experience.
+- Upon manuscript acceptance, the repository will include the **full source code and additional resources**, enabling a fully reproducible and comprehensive research workflow.
 
 
 ## **Demo Video**

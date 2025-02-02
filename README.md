@@ -21,20 +21,23 @@ Using a **VR-based multi-agent simulation**, we demonstrate how eHMIs can reduce
 
 
 ## **Repository Structure**
-- **Scripts/** – Unity C# scripts for server and client functionality, including real-time road user data synchronization and movement mechanics.
-    - **Server/**
-        -  SharedMessages.cs – Message structure for sending road user data.
-        -  ServerManager.cs – Manages server-side functionality, including registering handlers and broadcasting messages between clients.
-        -  ServerController.cs – Server-side controller to manage autonomous vehicle speed and driving state, and synchronize these states with connected clients.
-        -  expManager.cs – Manages experimental conditions on the server, allowing condition changes and broadcasting them to connected clients.
-        -  CustomNetworkManager.cs – Custom NetworkManager for handling server and client-specific logic with KCP transport.
-    - **Client/**
-        - SharedMessages.cs – Message structure for sending road user data.
-        - PedestrianController.cs – Manages the behavior and data synchronization for the pedestrian client.
-        - BicycleController.cs – Manages the behavior and data synchronization for the cyclist client.
-        - DriverController.cs – Manages the behavior and data synchronization for the driver client.
-        - ClientEHMIManager.cs – Manages eHMI states for the client.
-        - AVController.cs – Manages the behavior of an AV in various eHMI modes.
+### **Scripts/**
+Contains all **Unity C# scripts** used for server and client functionality.
+
+#### **Server/**
+- `SharedMessages.cs` – Message structure for sending road user data.
+- `ServerManager.cs` – Manages server-side functionality, including registering handlers and broadcasting messages between clients.
+- `ServerController.cs` – Server-side controller to manage autonomous vehicle speed and driving state, and synchronize these states with connected clients.
+- `expManager.cs` – Manages experimental conditions on the server, allowing condition changes and broadcasting them to connected clients.
+- `CustomNetworkManager.cs` – Custom NetworkManager for handling server and client-specific logic with KCP transport.
+
+#### **Client/**
+- `SharedMessages.cs` – Message structure for sending road user data.
+- `PedestrianController.cs` – Manages the behavior and data synchronization for the pedestrian client.
+- `BicycleController.cs` – Manages the behavior and data synchronization for the cyclist client.
+- `DriverController.cs` – Manages the behavior and data synchronization for the driver client.
+- `ClientEHMIManager.cs` – Manages eHMI states for the client.
+- `AVController.cs` – Manages the behavior of an AV in various eHMI modes.
 
 
 ## **Quickstart**

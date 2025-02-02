@@ -1,7 +1,6 @@
 # **You’re the One Whom I’m Talking To: The Role of Contextual External Human-Machine Interfaces in Multi-Road User Conflict Scenarios**
 
 This repository supports the **IMWUT 2025 February submission (ID: 1102)** by providing source code pertinent to the study. The repository is **anonymized** to comply with double-blind peer review requirements.  
-Upon acceptance of the manuscript, Unity project files, build executables, and additional resources will be shared.
 
 
 

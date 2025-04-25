@@ -21,7 +21,7 @@ Using a **VR-based multi-agent simulation**, we demonstrate how eHMIs can reduce
 
 ## **Repository Structure**
 ### **ExampleScene/**
-- ExampleScene.unity – A standalone demo scene that replicates core AV motion without networking. 
+- A standalone demo scene that replicates core AV motion without networking. 
 - Demonstrates the AV behavior and contextual eHMI logic in a self-contained setting.
 - Includes pre-configured:
   - Autonomous Vehicle with eHMI controller

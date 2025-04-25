@@ -20,6 +20,13 @@ Using a **VR-based multi-agent simulation**, we demonstrate how eHMIs can reduce
 
 
 ## **Repository Structure**
+### **ExampleScene/**
+- ExampleScene.unity – A standalone demo scene that replicates core AV motion without networking. 
+- Demonstrates the AV behavior and contextual eHMI logic in a self-contained setting.
+- Includes pre-configured:
+  - Autonomous Vehicle with eHMI controller
+  - Pedestrian, Cyclist, Driver avatars
+
 ### **Scripts/**
 Contains all **Unity C# scripts** used for server and client functionality.
 
@@ -114,13 +121,6 @@ Keyboard inputs allow for non-VR interaction and testing:
 **To Enable Keyboard Movement:**
 1. Attach the respective controller script to the character object.
 2. Assign necessary transforms (e.g., wheels, joints) in the Unity Inspector.
-
-## **ExampleScene**
-- ExampleScene.unity – A standalone demo scene that replicates core AV motion without networking. 
-- Demonstrates the AV behavior and contextual eHMI logic in a self-contained setting.
-- Includes pre-configured:
-  - Autonomous Vehicle with eHMI controller
-  - Pedestrian, Cyclist, Driver avatars
 
 ## **Notes**
 - The Cyclist (Bike) model is from **[Bicycle](https://poly.pizza/m/axc03j3xKfz) by [jeremy](https://poly.pizza/u/jeremy) [CC-BY](https://creativecommons.org/licenses/by/3.0/) via Poly Pizza**.

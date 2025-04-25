@@ -121,6 +121,7 @@ Keyboard inputs allow for non-VR interaction and testing:
 - Includes pre-configured:
   - Autonomous Vehicle with eHMI controller
   - Pedestrian, Cyclist, Driver avatars
+
 **Note**: The Cyclist (Bike) model is from **Bicycle by jeremy [CC-BY] via Poly Pizza**.
 
 ## **Notes**

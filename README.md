@@ -115,7 +115,13 @@ Keyboard inputs allow for non-VR interaction and testing:
 1. Attach the respective controller script to the character object.
 2. Assign necessary transforms (e.g., wheels, joints) in the Unity Inspector.
 
-
+#### ExampleScene/
+- ExampleScene.unity – A standalone demo scene that replicates core AV motion without networking. 
+- Demonstrates the AV behavior and contextual eHMI logic in a self-contained setting.
+- Includes pre-configured:
+  - Autonomous Vehicle with eHMI controller
+  - Pedestrian, Cyclist, Driver avatars
+**Note**: The Cyclist (Bike) model is from **Bicycle by jeremy [CC-BY] via Poly Pizza**.
 
 ## **Notes**
 - This repository currently focuses on **core scripts** and documentation. Future updates will include the **complete Unity project files**, **build executables**, and an **API** to enhance usability and accessibility.

@@ -122,9 +122,8 @@ Keyboard inputs allow for non-VR interaction and testing:
   - Autonomous Vehicle with eHMI controller
   - Pedestrian, Cyclist, Driver avatars
 
-**Note**: The Cyclist (Bike) model is from **Bicycle by jeremy [CC-BY] via Poly Pizza**.
-
 ## **Notes**
+- The Cyclist (Bike) model is from **Bicycle by jeremy [CC-BY] via Poly Pizza**.
 - This repository currently focuses on **core scripts** and documentation. Future updates will include the **complete Unity project files**, **build executables**, and an **API** to enhance usability and accessibility.
 - During testing, we identified considerations related to **Unity asset licensing** and **network connectivity** in certain machine setups. We are actively addressing these aspects to ensure a seamless and robust experience.
 - Upon manuscript acceptance, the repository will provide the **full source code and additional resources**, enabling reproducibility and expanded research opportunities.

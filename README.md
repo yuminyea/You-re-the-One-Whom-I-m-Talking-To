@@ -123,7 +123,7 @@ Keyboard inputs allow for non-VR interaction and testing:
   - Pedestrian, Cyclist, Driver avatars
 
 ## **Notes**
-- The Cyclist (Bike) model is from **Bicycle by jeremy [CC-BY] via Poly Pizza**.
+- The Cyclist (Bike) model is from **[Bicycle](https://poly.pizza/m/axc03j3xKfz) by [jeremy](https://poly.pizza/u/jeremy) [CC-BY](https://creativecommons.org/licenses/by/3.0/) via Poly Pizza**.
 - This repository currently focuses on **core scripts** and documentation. Future updates will include the **complete Unity project files**, **build executables**, and an **API** to enhance usability and accessibility.
 - During testing, we identified considerations related to **Unity asset licensing** and **network connectivity** in certain machine setups. We are actively addressing these aspects to ensure a seamless and robust experience.
 - Upon manuscript acceptance, the repository will provide the **full source code and additional resources**, enabling reproducibility and expanded research opportunities.

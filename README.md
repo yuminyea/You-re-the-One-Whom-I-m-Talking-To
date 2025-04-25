@@ -115,7 +115,7 @@ Keyboard inputs allow for non-VR interaction and testing:
 1. Attach the respective controller script to the character object.
 2. Assign necessary transforms (e.g., wheels, joints) in the Unity Inspector.
 
-#### ExampleScene/
+## **ExampleScene**
 - ExampleScene.unity – A standalone demo scene that replicates core AV motion without networking. 
 - Demonstrates the AV behavior and contextual eHMI logic in a self-contained setting.
 - Includes pre-configured:
